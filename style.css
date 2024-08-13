@@ -1,0 +1,52 @@
+h1 {
+    text-align: center;
+}
+
+#cep-response {
+    text-align: center;
+    font-weight: normal;
+}
+
+p {
+    text-align: center;
+}
+
+input {
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px;
+    border-radius: 12px;
+}
+
+button {
+  margin: auto;
+  display: flex;
+  margin-top: 12px;
+  padding: 6px 13px;
+  font-size: 15px;
+  border-radius: 10px;
+}
+
+.cep-data {
+    display: flex;
+    justify-content: center;
+    margin: 0.4in;
+}
+
+#warning {
+    display: flex;
+    justify-content: center;
+    margin: 0.2in;
+}
+
+#table-cep {
+    padding: 4px 6px;
+    border: 1px solid;
+}
+
+#cep-output {
+    text-align: center;
+    padding: 12px;
+}

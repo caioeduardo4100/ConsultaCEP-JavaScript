@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consulta JS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div>
+        <h1>Consulta CEP com Javascript</h1>
+        <input type="text" id="cep-input" placeholder="Digite o CEP" autocomplete="off">
+        <button onclick="sendCepRequest()">Enviar</button>
+        <span id="warning"></span>
+    </div>
+
+    <table class="cep-data">
+        <tr>
+            <td id="table-cep">CEP</td>
+            <td id="table-cep">Logradouro</td>
+            <td id="table-cep">Complemento</td>
+            <td id="table-cep">Unidade</td>
+            <td id="table-cep">Bairro</td>
+            <td id="table-cep">Cidade</td>
+            <td id="table-cep">UF</td>
+            <td id="table-cep">IBGE</td>
+            <td id="table-cep">Gia</td>
+            <td id="table-cep">DDD</td>
+            <td id="table-cep">Siafi</td>
+        </tr>
+        <tr id="cep-output">
+            <td id="cep"></td>
+            <td id="logradouro"></td>
+            <td id="complemento"></td>
+            <td id="unidade"></td>
+            <td id="bairro"></td>
+            <td id="localidade"></td>
+            <td id="uf"></td>
+            <td id="ibge"></td>
+            <td id="gia"></td>
+            <td id="ddd"></td>
+            <td id="siafi"></td>
+        </tr>
+    </table>
+</body>
+<script src="script.js"></script>
+</html>
