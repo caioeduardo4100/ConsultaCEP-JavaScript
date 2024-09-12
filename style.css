@@ -1,14 +1,20 @@
 h1 {
     text-align: center;
+    color: #4CAF50; 
+    font-family: 'Arial', sans-serif;
 }
 
 #cep-response {
     text-align: center;
     font-weight: normal;
+    color: #555555; 
+    font-family: 'Verdana', sans-serif;
 }
 
 p {
     text-align: center;
+    color: #333333; 
+    font-family: 'Tahoma', sans-serif;
 }
 
 input {
@@ -18,35 +24,73 @@ input {
     justify-content: center;
     padding: 8px;
     border-radius: 12px;
+    border: 2px solid #4CAF50; 
+    background-color: #F0F8FF; 
+    color: #000000; 
+    font-family: 'Verdana', sans-serif;
 }
 
 button {
-  margin: auto;
-  display: flex;
-  margin-top: 12px;
-  padding: 6px 13px;
-  font-size: 15px;
-  border-radius: 10px;
+    margin: auto;
+    display: flex;
+    margin-top: 12px;
+    padding: 6px 13px;
+    font-size: 15px;
+    border-radius: 10px;
+    background-color: #4CAF50; 
+    color: white; 
+    border: none;
+    cursor: pointer;
+    font-family: 'Arial', sans-serif;
+}
+
+button:hover {
+    background-color: #45A049; 
 }
 
 .cep-data {
     display: flex;
     justify-content: center;
     margin: 0.4in;
+    color: #333333; 
+    font-family: 'Verdana', sans-serif;
 }
 
 #warning {
     display: flex;
     justify-content: center;
     margin: 0.2in;
+    color: #FF4500; 
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
 }
 
 #table-cep {
     padding: 4px 6px;
-    border: 1px solid;
+    border: 1px solid #4CAF50; 
+    background-color: #F8F8F8; 
+    color: #000000; 
+    font-family: sans-serif;
+    font-weight: 500;
+    border-collapse: collapse; 
+    width: 100%; 
+}
+
+#table-cep th, #table-cep td {
+    padding: 12px 15px; 
+    text-align: left; 
+    border: 1px solid #ddd; 
+}
+
+#table-cep th {
+    background-color: #4CAF50; 
+    color: white; 
 }
 
 #cep-output {
     text-align: center;
     padding: 12px;
+    background-color: #E0F7FA; 
+    color: #000000; 
+    font-family: sans-serif;
 }
