@@ -30,7 +30,7 @@ const sendCepRequest = (request => {
                     // Conversão de string para objeto
                     const cepObj = JSON.parse(response);
 
-                    // Variavel do tipo objeto para armazenar as informações
+                    // Armazena as informações em objetos
                     const dados = {
                         cep: cepObj.cep,
                         logradouro: cepObj.logradouro,
@@ -57,7 +57,7 @@ const sendCepRequest = (request => {
                         }
                     };
                     
-                    // Adiciona os dados nos parametros da função e exibe na tabela
+// Itera sobre o objeto 'dados' e adiciona seus atributos na função que exibe os dados na tabela
                     for (const campo in dados) {
                         exibirOuAvisar(campo, dados[campo])
                     };
